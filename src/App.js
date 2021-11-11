@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/")
+      .get("https://afternoon-scrubland-94726.herokuapp.com/")
       .then((response) => setEvents(response.data));
   }, []);
 
